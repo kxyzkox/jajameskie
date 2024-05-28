@@ -2,32 +2,32 @@
 <title>jaja meskie🤠</title>
 <body style="background-color:BLACK;">
 
-       <div class='player'>
-        <head>
-            <link href="https://vjs.zencdn.net/8.0.3/video-js.css" rel="stylesheet" />
-          </head>
-          
-          <body>
-            <video
-              id="my-video"
-              class="video-js"
-              controls
-              preload="auto"
-              width="960"
-              height="540"
-              poster="videos/playerbutton.png"
-              data-setup="{}"
-              preload="auto"
-            >
-              <source src="wielkanoc.mp4" type="video/mp4" />
-              <p class="vjs-no-js">
-                To view this video please enable JavaScript, and consider upgrading to a
-                web browser that
-                <a href="https://videojs.com/html5-video-support/" target="_blank"
-                  >supports HTML5 video</a
-                >
-              </p>
-            </video>
+<script>
+       function init() {
+  var player = videojs('my-player', {
+    autoplay: true,
+    muted: true
+  });
+}
+</script>
+       
+       
+     <body onload="init()">
+    <video
+    id="my-player"
+    class="video-js"
+    controls
+    preload="auto"
+      <source src="wielkanoc.mp4" type="video/mp4"></source>
+      <p class="vjs-no-js">
+        To view this video please enable JavaScript, and consider upgrading to a
+        web browser that
+        <a href="http://videojs.com/html5-video-support/" target="_blank">
+          supports HTML5 video
+        </a>
+      </p>
+    </video>
+  </body>
           
             <script src="https://vjs.zencdn.net/8.0.3/video.min.js"></script>
           </body>
