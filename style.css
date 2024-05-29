@@ -1,0 +1,44 @@
+body {  
+      background-color: #ffffff;
+      font-family: Proxima Nova;
+      font-weight: 900;
+      font-size: 30px;
+      padding: 0;
+      animation: blur 1s ease-out;
+      background-color: #e7e7e7;
+      }
+
+
+  div#banner { 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    background-image: url('assets/bannerbackground.png');
+    box-shadow: 0 0 75px rgba(77, 77, 77, 0.8);
+    
+  }
+  div#banner-content { 
+    width: 100%; 
+    border: 0px solid;
+    margin: auto;
+    padding: 10px;
+    display:inline-block;
+    text-align: center;
+  }
+
+  div#main-content { 
+    padding-top: 70px;
+ }
+
+ .items{ 
+  display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+ }
+
+ #item{
+  box-shadow: 0 0 15px rgba(77, 77, 77, 0.9);
+ }
+
+ #limiteditem{
+   box-shadow: 0 0 55px rgba(255, 108, 108, 0.9);
+  }
