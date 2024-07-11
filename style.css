@@ -1,20 +1,24 @@
 body {  
-      background-color: #ffffff;
       font-family: Proxima Nova;
       font-weight: 900;
       font-size: 30px;
       padding: 0;
       animation: blur 1s ease-out;
-      background-color: #e7e7e7;
+      background-color: rgba(152, 50, 255, 0.8);
+
       }
 
+      a {
+        font-family: Arial, sans-serif;
+        font-size: 32px;
+        color: #000000;
+      }
 
   div#banner { 
-    position: fixed; 
+    position: fixed;
     top: 0; 
     left: 0; 
     background-image: url('assets/bannerbackground.png');
-    box-shadow: 0 0 75px rgba(77, 77, 77, 0.8);
     
   }
   div#banner-content { 
@@ -24,6 +28,14 @@ body {
     padding: 10px;
     display:inline-block;
     text-align: center;
+  }
+
+  ul {
+    height: 50%;
+  }
+
+  div#chat {
+    height: 50%;
   }
 
   div#main-content { 
