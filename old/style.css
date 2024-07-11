@@ -1,0 +1,77 @@
+body {
+  background-image: url('assets/batman.gif');
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  font-style: italic;
+  font-weight: bolder;
+  color: #ffffff;
+}
+
+header {
+  text-align: center;
+}
+
+#messages{
+  padding-bottom: 30%;
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+  margin-bottom: 10px;
+  background-color: #d4b7ff71;
+  
+  padding: 5px;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+}
+
+
+
+#chat {
+  width: 80%;
+  margin-bottom: 0px;
+  margin: auto;
+}
+
+#message-form {
+  margin-left: 11%;
+  margin-right: 10%;
+  align-items: center;
+  font-style: italic;
+  font-weight: bolder;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  right: 10px;
+  bottom: 0;
+  height: 70px;
+  width: 80%;
+  background-color: #1e1e1ec7;
+  border-radius: 10px;
+  
+}
+
+input {
+  width: 70%;
+  height: 30px;
+}
+
+button {
+  width: 25%;
+  height: 38px;
+}
+
+.sent {
+  text-align: center;
+
+  background-color: #efd0ff8c;
+}
+
+.sent span {
+  margin-left: 5px;
+  color: #6929ca;
+}

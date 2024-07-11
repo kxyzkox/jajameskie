@@ -1,72 +1,53 @@
-body {
-    background-image: url('assets/batman.gif');
-    margin: 0;
+body {  
+    font-family: Proxima Nova;
+    font-weight: 900;
+    font-size: 30px;
     padding: 0;
+    animation: blur 1s ease-out;
+    background-color: rgba(152, 50, 255, 0.8);
+
+    }
+
+    a {
+      font-family: Arial, sans-serif;
+      font-size: 32px;
+      color: #000000;
+    }
+
+    h1 {
+      font-family: Arial, sans-serif;
+      font-size: 40px;
+
+    }
+
+
+div#banner { 
+  position: fixed;
+  top: 0; 
+  left: 0; 
+  background-image: url('assets/bannerbackground.png');
+  
+}
+div#banner-content { 
+  width: 100%; 
+  border: 0px solid;
+  margin: auto;
+  padding: 10px;
+  display:inline-block;
+  text-align: center;
 }
 
-div {
-    font-style: italic;
-    font-weight: bolder;
-    color: #ffffff;
+
+
+.items{ 
+display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
-header {
-    text-align: center;
+#item{
+box-shadow: 0 0 15px rgba(77, 77, 77, 0.9);
 }
 
-#messages{
-    margin-top: 180px;
-    height: 50px;
-    padding-bottom: 30%;
-}
-
-li {
-    text-decoration: none;
-    list-style-type: none;
-    margin-bottom: 10px;
-    background-color: #d4b7ff71;
-    
-    padding: 5px;
-    border-radius: 10px;
-    color: rgb(0, 0, 0);
-}
-
-
-
-#chat {
-    width: 80%;
-    margin: auto;
-}
-
-#message-form {
-    font-style: italic;
-    font-weight: bolder;
-    text-align: center;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    height: 70px;
-    width: 100%;
-    background-color: #efd0ff8a;
-}
-
-input {
-    width: 70%;
-    height: 30px;
-}
-
-button {
-    width: 25%;
-    height: 38px;
-}
-
-.sent {
-    text-align: left;
-
-    background-color: #efd0ff8c;
-}
-
-.sent span {
-    margin-left: 5px;
-    color: #6929ca;
+#limiteditem{
+ box-shadow: 0 0 55px rgba(255, 108, 108, 0.9);
 }

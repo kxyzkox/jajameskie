@@ -34,8 +34,8 @@ function sendMessage(e) {
   // clear the input box
   messageInput.value = "";
 
-  //auto scroll to bottom
-  document
+    //auto scroll to bottom
+    document
     .getElementById("messages")
     .scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" });
 
