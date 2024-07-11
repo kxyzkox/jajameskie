@@ -55,7 +55,7 @@ fetchChat.on("child_added", function (snapshot) {
   const messages = snapshot.val();
   const message = `<li class=${
     username === messages.username ? "sent" : "receive"
-  }><span>${messages.username}</span><a style="text-decoration: none;" href= "${messages.message}" target="_blank">${messages.message}</a></li>`;
+  }><span>${messages.username}</span><a style="text-decoration: none; color: violet;" href= "${messages.message}" target="_blank">${messages.message}</a></li>`;
   // append the message on the page
   document.getElementById("messages").innerHTML += message;
 });

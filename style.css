@@ -1,5 +1,5 @@
 body {
-  background-image: url('assets/disco.gif');
+  background-image: url('assets/gus.gif');
   margin: 0;
   padding: 0;
 }
@@ -26,16 +26,24 @@ li {
   
   padding: 5px;
   border-radius: 10px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 0, 0);
 }
 
+input[type="text"], textarea {
 
+  background-color : #414141; 
+
+}
 
 #chat {
   width: 80%;
   margin-bottom: 0px;
   margin: auto;
 }
+
+  .message-btn { 
+    background-color: #414141;
+  }
 
 #message-form {
   margin-left: 11%;
@@ -50,7 +58,7 @@ li {
   bottom: 0;
   height: 70px;
   width: 80%;
-  background-color: #ffffffc7;
+  background-color: #313131;
   border-radius: 60px;
   
 }
@@ -68,10 +76,10 @@ button {
 .sent {
   text-align: center;
 
-  background-color: #ffffff8c;
+  background-color: #2424248c;
 }
 
 .sent span {
   margin-left: 5px;
-  color: #ffffff;
+  color: #ff0000;
 }
